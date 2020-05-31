@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leonardo Da Vinci</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/java.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        {{> nav}}
+        <section class="textos-header">
+
+            <h1>Leonardo </h1>
+            <h2>D a V i n c i</h2>
+            
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+</section>
+
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Biográfia</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="images/leo/l.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    
+                    <p>Leonardo Da Vinci fue un polímata italiano del siglo XV y XVI (nació el 15 de abril de 1452 y murió el 2 de mayo de 1519) conocido principalmente por su destacado talento como pintor, ingeniero e inventor.
+
+                        Sus obras pictóricas más conocidas son La Gioconda (también conocido como La Mona Lisa) y La última cena (ver imágenes en el punto 2).
+                        
+                        Además de estas dos obras de arte, escribió un sinfín de ideas revolucionarias (recogidas en 20 volúmenes) que no pudieron ser desarrolladas hasta varios siglos después, algunas por las limitaciones técnicas existentes en esa época y otras por pequeñas incongruencias en sus bocetos que imposibilitaba el funcionamiento de sus inventos.
+                        
+                        <br>Frecuentemente descrito como un arquetipo y símbolo del hombre del Renacimiento, genio universal, además de filósofo humanista cuya curiosidad infinita solo puede ser equiparable a su capacidad inventiva, Leonardo da Vinci es considerado uno de los más grandes pintores de todos los tiempos y, probablemente, la persona con el mayor número de talentos en múltiples disciplinas que jamás ha existido. Como ingeniero e inventor, Leonardo desarrolló ideas muy adelantadas a su tiempo, tales como el helicóptero, el carro de combate, el submarino y el automóvil. Muy pocos de sus proyectos llegaron a construirse (entre ellos la máquina para medir el límite elástico de un cable), puesto que la mayoría no eran realizables durante esa época. Como científico, Leonardo da Vinci hizo progresar mucho el conocimiento en las áreas de anatomía, la ingeniería civil, la óptica y la hidrodinámica.
+                        
+                    </p>
+                    
+                </div>
+            </div>
+            <section class="portafolio">
+                <div class="contenedor">
+                    <h2 class="titulo">Obras más importantes: </h2>
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <img src="images/leo/monalisal.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="images/brush.png" alt="">
+                                <p> <a href="https://es.wikipedia.org/wiki/La_Gioconda"><center><b>La Mona Lisa</b></center></a></p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="images/leo/ultimacenal.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="images/brush.png" alt="">
+                                <p><a href="https://es.wikipedia.org/wiki/La_%C3%9Altima_Cena"><center><b>La última cena</b></center></a></p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="images/leo/hombrevirtuanol.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="images/brush.png" alt="">
+                                <p><a href="https://es.wikipedia.org/wiki/Hombre_de_Vitruvio"><center><b>Hombre Vitruvio</b></center></a></p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="images/leo/ginevrade'bencil.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="images/brush.png" alt="">
+                                <p><a href="https://es.wikipedia.org/wiki/Retrato_de_Ginebra_de_Benci"><center> <b>Ginevra de' Benci</b></center></a></p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="images/leo/lavirgendelasrocasl.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="images/brush.png" alt="">
+                                <p><a href="https://es.wikipedia.org/wiki/La_Virgen_de_las_Rocas"><center><b> La virgen de las rocas</b></center></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+    </main>
+    {{> footer}}
+</body>
+</html>
